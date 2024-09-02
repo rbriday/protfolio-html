@@ -3,15 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="protfolio, html">
+    <meta name="description" content="Riday">
+    <meta name="author" content="riday">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(198, 192, 192);
+            font-family: "Nerko One", cursive;
+        }
+    </style>
     <title>Personal protfolio</title>
 </head>
-<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Protfolio</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    
     <header>
         <h1>Riday Rajbongshi</h1>
         <p>Web developer and Lecturer of computer Sceience</p>
         <hr />
     </header>
     <!-- Section : about part Start-->
+     <section>
+        <h2>About Me</h2>
+        <p>Experience: 6 month expercince in web design</p>
+        <p>Education: Deploma Enginnering computer sceicnce</p>
+     </section>
     <!-- Section : about part End-->
+
+    <!-- Section : Skills part start-->
+     <section>
+        <h2>My Skills</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Subjuect</th>
+                    <th>LAVLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Super High</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td rowspan="3">High</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <label for="htmlprogresss">HTML</label>
+            <progress id="htmlprogresss" value="95" max="100">
+                85%
+            </progress>
+            <div>
+                
+                <label for="htmlprogresss">CSS</label>
+                <progress id="htmlprogresss" value="70" max="100">
+                    70%
+                </progress>
+            </div>
+        </div>
+     </section>
+     <br>
+
+    <!-- Section :  Skills part End-->
+
+    <!----- Section From start ---->
+     <section>
+        <form action="">
+        <div>
+            <label for="">Name:</label><input type="text">
+            <label for="">Email</label><input type="email">
+           <div>
+            <label for="">Massages</label> <textarea name="" id="">Massage</textarea>
+           </div>
+        </div>
+        <div>
+            <label for="websites">websites</label>
+            <input type="url" id="websites" name="website">
+        </div>
+        <div>
+            <label for="image">Upload Images:</label>
+            <input type="file" id="image" name="image">
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+        <div>
+                <label for="Subject">Subject:</label>
+                <select name="subject" id="subject" >
+                    <option value="">Inquiry</option>
+                    <option value="">feedback</option>
+                    <option value="">Job Opportunity</option>
+                </select>
+            </div>
+        </form>
+     </section>
+    <!----- Section From end ---->
+    <!----footer section start---->
+    <footer>
+        <p>copyright reseved by &copy;</p>
+        <p>Developed with &hearts;</p>
+        <a href="tel:0193326633">Call me</a>
+        <a href="mailto:ridaya@gmail.com"></a>
+        <h3>Follow me</h3>
+        <ul>
+            <li>
+                <a href="" target="-blank">
+                    <i class="fa-brands fa-facebook"></i>
+                    facebook page
+                </a>
+            </li>
+            <li>
+                <a href="" target="-blank">
+                    <i class="fa-brands fa-youtube"></i>
+                    youtube channel
+                </a>
+            </li>
+            <li>
+                <a href="" target="-blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Linkedin
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!----footer section end---->
+    
+
 </body>
 </html>
